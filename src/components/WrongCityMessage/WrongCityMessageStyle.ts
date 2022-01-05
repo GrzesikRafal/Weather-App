@@ -3,11 +3,11 @@ import { MessageInterface } from "./WrongCityMessage";
 
 export const Message = styled.div<Partial<MessageInterface>>`
   position: absolute;
-  margin-top: 1rem;
-  padding: 0 1rem;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: 1rem;
   width: fit-content;
+  padding:  1rem 1rem;
   background: ${(props) => props.colors?.wrongCityMessage};
   border-radius: 20px;
 

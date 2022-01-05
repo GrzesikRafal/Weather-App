@@ -10,7 +10,7 @@ export const SearchCityForm = styled.form`
 display:flex;
 justify-content:space-evenly;
 gap:1rem;
-margin-top:2rem;
+padding:2rem;
 `
 export const SearchCityInput = styled.input<ColorsProps>`
 text-transform:capitalize;
@@ -26,6 +26,9 @@ color:${props => props.colors.lightFont};
 };
 :focus{
   outline: 1px solid ${props => props.colors.searchButton};
+}
+:focus::placeholder{
+  color:${props => props.colors.lightFont};
 }
 `
 export const SubmitSearchButton = styled.button<ColorsProps>`

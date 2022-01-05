@@ -4,6 +4,7 @@ import ActualWeather from './components/ActualWeather/ActualWeather';
 import WeatherDetails from './components/WeatherDetails/WeatherDetails';
 import { useLocalStorage } from './Hooks/UseLocalStorage';
 import axios from 'axios';
+import Footer from './components/Footer/Footer';
 
 export interface WeatherInfoInterface {
   cityName: string;
@@ -74,6 +75,7 @@ const App: FC = () => {
             handleWrongCityMessage={setShowWrongCityMessage}
           />
           <WeatherDetails weatherInfo={weatherInfo} />
+          <Footer />
         </>}
 
     </AppContainer>
