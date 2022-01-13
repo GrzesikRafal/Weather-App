@@ -3,7 +3,6 @@ import { ColorsProps } from "../../context/ColorContext";
 
 export const RelativeForWrongMessage = styled.div`
 position:relative;
-
 `
 
 export const SearchCityForm = styled.form`

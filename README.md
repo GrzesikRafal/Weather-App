@@ -1,3 +1,17 @@
+# Weather App
+Weather App is a aplication that enables youcheck current weather information about location you are interested in.
+
+## Check weather here : [Weather App](https://grzesikrafal.github.io/weather-app/)
+### Technologies used
+
+* React 
+* TypeScript
+* Styled Components
+* axios
+
+Weather App design is inspired by one of the challanges available on [devchallenges](https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
